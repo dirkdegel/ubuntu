@@ -25,7 +25,9 @@ sudo apt install htop -y # installed
 sudo apt wget -y # installed
 sudo apt install neofetch -y
 sudo apt install nautilus -y
+sudo apt install gedit -y
 
+# chrome browser
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
