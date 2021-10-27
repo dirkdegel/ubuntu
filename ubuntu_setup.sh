@@ -27,6 +27,8 @@ sudo apt install neofetch -y
 sudo apt install nautilus -y
 sudo apt install gedit -y
 sudo apt install eog -y
+# gparted
+# etcher
 
 # chrome browser
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -34,6 +36,7 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 # some problems
 
 # visual studio code
+# does not work yet
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
 sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
 sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
@@ -41,8 +44,6 @@ rm -f packages.microsoft.gpg
 sudo apt install apt-transport-https
 sudo apt update
 sudo apt install code -y
-
-# sudo apt install r-base-core -y # 4.0.4
 
 ### optinal stuff
 sudo apt install gnome-tweaks -y
@@ -53,5 +54,95 @@ cd Matcha-gtk-theme/
 
 sudo add-apt-repository ppa:papirus/papirus
 sudo apt install papirus-icon-theme
+
+
+# https://linuxhint.com/100_best_ubuntu_apps/
+
+# docker
+# K8s
+# multipass # minimal VM
+# remina
+# boxes
+# ssh
+# vlc
+# teamviewer
+# virtial box
+# etcher
+# pi image flasher
+
+
+# office
+# teams
+# slack
+# signal
+# discord
+# TeX
+# atom
+# vscode
+# brackets
+# Sublime Text
+# TeXstudio
+# skype
+# zoom
+# inkscape
+# gimp
+# chees
+# screen recorder
+# shutter
+# telegram
+# Discord
+# KDE connect/gnome version
+# 4K Video Downloader
+# Chromium Web Browser
+
+# media
+# codex
+# vlc
+
+# OneDrive
+# Google drive
+# Dropbox
+
+# Azure
+# azure batch
+# azure file???
+
+# programming
+# Java
+# Go
+# Rust
+# C
+# Eclipse
+# rStudio
+# VSCode
+# PyCharm
+
+
+# Analytics
+# R
+# sudo apt install r-base-core -y # 4.0.4
+
+# python
+# python3 is installed
+
+# julia
+
+# octave
+
+# powerBI
+
+# data bases
+
+# OR
+# cbc
+
+# highs 
+
+# glpk
+
+
+# Fun
+# darktable
+# 
 
 # reboot
